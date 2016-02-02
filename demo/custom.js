@@ -11,7 +11,7 @@ import HelloWorld from "./demo/pages/helloworld";
 class HelloReact extends Component {
   render() {
     return (
-        <HelloWorld/>
+        <HelloWorld author="陈旭伟"/>
     );
   }
 }
