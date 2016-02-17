@@ -515,7 +515,11 @@
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
+<<<<<<< HEAD
 			buildActionMask = 2147483647;
+=======
+			buildActionMask = 8;
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 			files = (
 			);
 			inputPaths = (
@@ -523,7 +527,11 @@
 			name = "Bundle React Native code and images";
 			outputPaths = (
 			);
+<<<<<<< HEAD
 			runOnlyForDeploymentPostprocessing = 0;
+=======
+			runOnlyForDeploymentPostprocessing = 1;
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 			shellPath = /bin/sh;
 			shellScript = "../node_modules/react-native/packager/react-native-xcode.sh";
 		};
@@ -618,7 +626,10 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = HelloReact/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloReact;
@@ -635,7 +646,10 @@
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
 				INFOPLIST_FILE = HelloReact/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = HelloReact;
@@ -681,7 +695,11 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -721,7 +739,11 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
 				);
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+>>>>>>> f69597f62f33c98af69644c659267ee65e03bb68
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
